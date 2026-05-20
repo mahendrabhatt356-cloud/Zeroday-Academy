@@ -230,3 +230,76 @@ text-align:center;
 }
 
 }
+.stats{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:100px 10%;
+}
+
+.stat-box{
+background:#111;
+padding:30px;
+border-radius:15px;
+width:220px;
+box-shadow:0 0 20px cyan;
+transition:0.3s;
+}
+
+.stat-box:hover{
+transform:translateY(-10px);
+}
+
+.stat-box h2{
+color:cyan;
+font-size:40px;
+}
+
+.stat-box p{
+color:#ccc;
+margin-top:10px;
+}
+
+.newsletter{
+padding:100px 10%;
+text-align:center;
+}
+
+.newsletter h2{
+color:cyan;
+font-size:40px;
+margin-bottom:20px;
+}
+
+.newsletter p{
+color:#ccc;
+margin-bottom:30px;
+}
+
+.newsletter input{
+padding:15px;
+width:300px;
+max-width:90%;
+border:none;
+border-radius:8px;
+margin-bottom:20px;
+}
+
+.newsletter button{
+padding:15px 30px;
+background:cyan;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+.payment{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.payment h2{
+    color: cyan;
+    margin-bottom: 20px;
+}
