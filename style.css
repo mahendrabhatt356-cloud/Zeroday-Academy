@@ -236,3 +236,23 @@ font-size:22px;
 }
 
 }
+.purchase{
+padding:60px 20px;
+text-align:center;
+}
+
+.purchase-box{
+max-width:600px;
+margin:auto;
+background:#111;
+padding:30px;
+border-radius:20px;
+border:1px solid #00f7ff;
+box-shadow:0 0 15px cyan;
+}
+
+.purchase-box p{
+margin:15px 0;
+font-size:18px;
+color:#ccc;
+}
