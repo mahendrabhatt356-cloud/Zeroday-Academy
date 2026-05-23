@@ -209,6 +209,7 @@ transition:0.3s;
 transform:scale(1.2);
 }
 
+
 /* FOOTER */
 
 footer{
@@ -255,4 +256,11 @@ box-shadow:0 0 15px cyan;
 margin:15px 0;
 font-size:18px;
 color:#ccc;
+}
+a{
+text-decoration:none;
+  }
+button:hover{
+transform:scale(1.05);
+transition:0.3s;
 }
