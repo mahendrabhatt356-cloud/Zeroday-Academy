@@ -1954,3 +1954,39 @@ border-radius: 11px;
     }
 
 }
+/* ===== LOGO FIX ===== */
+
+.site-logo,
+.boot-image {
+    width: 58px;
+    height: 58px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+
+/* Logo container ko bhi circular rakho */
+.logo-wrap,
+.brand-logo,
+.logo-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* ===== MODULE CARD POSITION FIX ===== */
+
+.hero-visual {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-visual .floating-card:first-of-type {
+    left: 8%;
+    top: 18%;
+}
+
+.hero-visual .floating-card:nth-of-type(2) {
+    right: 4%;
+    bottom: 12%;
+}
